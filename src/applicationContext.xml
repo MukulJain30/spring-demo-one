@@ -11,9 +11,12 @@
     <!-- Define your beans here -->
     
     <!-- define the dependency -->
-    
- 	<bean id="seltoscar"
- 		class="com.learncode.demospring.SeltosCar">	 		
+	
+ 	<bean id="cara"
+ 		class="com.learncode.demospring.CarA">	 		
+ 	</bean>
+ 	<bean id="carb"
+ 		class="com.learncode.demospring.CarB">	 		
  	</bean>
 
 </beans>
