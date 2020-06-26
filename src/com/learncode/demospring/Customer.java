@@ -8,8 +8,10 @@ public class Customer {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
-		Car seltos = context.getBean("seltoscar",Car.class);
-		seltos.getPrice();
+		Car carA = context.getBean("cara",Car.class);
+		Car carB = context.getBean("carb",Car.class);
+		carA.getPrice();
+		carB.getPrice()
 	}
 
 }
