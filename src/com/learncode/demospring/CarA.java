@@ -6,6 +6,7 @@ private String message = "Price for Car A starts from 5L";
 	@Override
 	public void getPrice() {
 		System.out.println(message);
+		//SOP Statement
 
 	}
 
